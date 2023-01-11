@@ -3,13 +3,11 @@ import group from "../assets/Group.png";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1440px] flex flex-row-reverse justify-between w-full my-5 p-5 items-center">
-      <div className="hidden sm:block">
-        <img src={group} alt="" />
-      </div>
-      <div className="flex flex-col gap-2">
+    <div className="max-w-[1440px] flex justify-between m-auto my-5 p-5 items-center">
+      <div className="flex flex-col gap-2 min-w-fit">
         <h1 className="text-4xl text-darktext font-bold ">
-          Powering 30,000+ Businesses like you <br /> in Australia
+          Powering 30,000+ <br />
+          Businesses like you <br /> in Australia
         </h1>
         <p className="text-sm text-lighttext font-normal">
           Get more than just a payment gateway. No setup fee.
@@ -25,6 +23,9 @@ const Hero = () => {
             Sign Up Now
           </button>
         </div>
+      </div>
+      <div className="hidden sm:block w-auto">
+        <img src={group} alt="" />
       </div>
     </div>
   );
