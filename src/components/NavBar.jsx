@@ -59,11 +59,11 @@ const NavBar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "overflow-y-hidden sm:hidden ease-in duration-300 absolute text-accent left-0 top-0 h-screen w-full bg-black/90 px-4 py-7 flex flex-col"
+            ? "overflow-y-hidden sm:hidden ease-in duration-300 absolute text-accent left-0 top-0 h-screen w-full bg-black/95 px-4 py-7 flex flex-col"
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
         }
       >
-        <ul className="h-full w-full text-center text-2xl pt-12 space-y-8">
+        <ul className="h-full w-full text-center text-2xl font-semibold pt-12 space-y-8">
           <li>
             <a href="/">Home</a>
           </li>

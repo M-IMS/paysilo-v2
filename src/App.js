@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyDevider from "./components/CompanyDevider";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Hero />
       <CompanyDevider />
+      <Features />
     </div>
   );
 }
