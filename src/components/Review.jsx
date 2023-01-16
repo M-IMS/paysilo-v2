@@ -4,7 +4,7 @@ import man from "../assets/man.png";
 
 const Review = () => {
   return (
-    <div className="max-w-[1440px] flex flex-col items-center bg-background p-10 gap-5">
+    <div className="flex flex-col items-center bg-background p-10 gap-5">
       <h1 className="text-lg font-bold text-center">
         A payments experience people love to talk about
       </h1>
