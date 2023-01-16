@@ -3,6 +3,7 @@ import CompanyDevider from "./components/CompanyDevider";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Review from "./components/Review";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <CompanyDevider />
       <Features />
+      <Review />
     </div>
   );
 }
