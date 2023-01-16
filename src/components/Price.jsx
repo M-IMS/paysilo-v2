@@ -23,7 +23,7 @@ const Price = () => {
           </div> */}
         </div>
 
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap justify-center items-center -m-4">
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 bg-white rounded-lg flex flex-col relative overflow-hidden">
               <h2 class="text-lg tracking-widest text-primary font-medium">

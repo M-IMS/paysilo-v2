@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyDevider from "./components/CompanyDevider";
+import FAQ from "./components/FAQ";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Review />
       <Price />
+      <FAQ />
     </div>
   );
 }
