@@ -1,6 +1,6 @@
 import React from "react";
 
-const Devider_02 = () => {
+const Devider02 = () => {
   return (
     <div className="bg-accent text-center text-white p-5">
       <h1 className="text-xl font-bold leading-10">
@@ -14,4 +14,4 @@ const Devider_02 = () => {
   );
 };
 
-export default Devider_02;
+export default Devider02;
