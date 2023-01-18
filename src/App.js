@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyDevider from "./components/CompanyDevider";
+import Devider_02 from "./components/Devider_02";
 import FAQ from "./components/FAQ";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
@@ -17,6 +18,7 @@ function App() {
       <Review />
       <Price />
       <FAQ />
+      <Devider_02 />
     </div>
   );
 }

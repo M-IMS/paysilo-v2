@@ -8,7 +8,7 @@ import mates from "../assets/mates.png";
 
 const CompanyDevider = () => {
   return (
-    <div className="max-w-[1440px] m-auto bg-clr2 max-h-[92px] flex justify-items-center justify-evenly">
+    <div className="bg-clr2 max-h-[92px] flex justify-items-center justify-evenly">
       <img src={cubico} alt="cubico" className="min-w-[80px]" />
       <img src={king} alt="king" className="min-w-[80px]" />
       <img src={hexagon} alt="hexagon" className="min-w-[80px]" />
