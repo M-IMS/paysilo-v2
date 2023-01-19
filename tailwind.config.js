@@ -13,7 +13,7 @@ module.exports = {
       black: "#000000",
       clr1: "#F2F2F2",
       clr2: "#E8EBF3",
-      clr3: "#222222",
+      clr3: "#A9A9E8",
     },
   },
   plugins: [],
