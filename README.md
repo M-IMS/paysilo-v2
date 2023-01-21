@@ -4,4 +4,4 @@ ReactJS & Tailwind CSS
 
 #React-Icon
 
-'''npm install react-icons --save'''
+`npm install react-icons --save`
