@@ -62,13 +62,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <img src={logowhite} alt="" />
-      {/* <div>
-        <div>
-          <img src={googleplay} alt="" />
-          <img src={appstore} alt="" />
-        </div>
-        <div>
+
+      <div className="flex flex-row justify-evenly">
+        <div className="w-72 text-xs font-extralight">
           <img src={logowhite} alt="" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
@@ -77,7 +73,11 @@ const Footer = () => {
           </p>
           <img alt="" />
         </div>
-      </div> */}
+        <div className="w-32 ">
+          <img src={googleplay} alt="" />
+          <img src={appstore} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
