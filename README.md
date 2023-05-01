@@ -1,4 +1,4 @@
-# paysilo-v2
+## paysilo-v2
 
 ReactJS & Tailwind CSS
 
@@ -7,5 +7,4 @@ ReactJS & Tailwind CSS
 `npm install react-icons --save`
 
 
-To Preview this template visit this link 
-`https://paysilo-v2.netlify.app/`
+[Demi Link](https://paysilo-v2.netlify.app/) - `https://paysilo-v2.netlify.app/`
